@@ -1,0 +1,40 @@
+<!-- We asumed the range of the year from 24/02/1582 to current day -->
+ <!-- By default it's take 1900 but we take it accoording to us..... -->
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Age Calculator</title>
+    <link rel="stylesheet" href="style.css">
+    <script src="myscript.js"></script>
+</head>
+<body>
+    <div class="container">
+        <h1>Age Calculator</h1>
+        <form id="ageForm">
+            <select id="month" name="month" required>
+                <option value="0">Month</option>
+                <option value="1">JAN</option>
+                <option value="2">FEB</option>
+                <option value="3">MAR</option>
+                <option value="4">APR</option>
+                <option value="5">MAY</option>
+                <option value="6">JUN</option>
+                <option value="7">JUL</option>
+                <option value="8">AUG</option>
+                <option value="9">SEP</option>
+                <option value="10">OCT</option>
+                <option value="11">NOV</option>
+                <option value="12">DEC</option>
+            </select>
+            <select id="day" name="day" required>
+                <option value="0">Day</option>
+            </select>
+            <input type="number" id="year" name="year" placeholder="Year" min="1582" required><br /><br />
+            <button type="button" onclick="calculateAge()">Calculate Age</button>
+        </form>
+        <div class="result" id="result"></div>
+    </div>
+</body>
+</html>
