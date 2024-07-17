@@ -1,3 +1,4 @@
+# This is the README file for AgeCalculator
 <p>It was instituted by papal bull Inter gravissimas dated 24 February 1582 by Pope Gregory XIII, after whom the calendar is named. The motivation for the adjustment was to bring the date for the celebration of Easter to the time of year in which it was celebrated when it was introduced by the early Church.</p><br />
 <h3>Age Calculator Formula</h3><br />
 <p>The Oxford Dictionary defines “Age” as the length of time that a person has lived or a thing has existed. The method of calculating age involves the comparison of a person's date of birth with the date on which the age needs to be calculated. The date of birth is subtracted from the given date, which gives the age of the person. i.e., Age formula = Given date - Date of birth. The steps to calculate a person's age from his date of birth to a given date are listed below.<br />
