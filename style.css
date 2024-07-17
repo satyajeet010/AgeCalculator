@@ -7,30 +7,30 @@ body {
     height: 100vh;
     margin: 0;
 }
+
 .container {
     background: white;
     padding: 20px;
     border: 2px solid #8f8f8f;
-    border-radius: 40px ;
+    border-radius: 40px;
     box-shadow: 10px 10px 150px rgba(255, 0, 0, 1);
     text-align: center;
     max-width: 400px;
     width: 100%;
 }
+
 h1 {
     color: #152d96;
-    
     margin-bottom: 20px;
     background: -webkit-linear-gradient(1deg,#152d96, rgba(255, 0, 0, 0.5));
     background-clip: text;
     -webkit-background-clip: text;
     -webkit-text-fill-color: transparent;
     backdrop-filter: blur(20px);
-    
 }
+
 select, input {
     display: inline-block;
-    /* width: calc(100% - 20px); */
     margin: 5px;
     padding: 10px;
     border: 1px solid #152d96b7;
@@ -38,14 +38,13 @@ select, input {
     border-radius: 10px;
     font-size: 1em;
 }
-select{
-    margin:10px;
-    
+
+select {
+    margin: 10px;
 }
+
 button {
     width: calc(100% - 10px);
-    /* display: inline-block; */
-    /* width: 100%; */
     padding: 10px;
     margin: 5px;
     border: none;
@@ -54,11 +53,12 @@ button {
     color: white;
     font-size: 1.1em;
     cursor: pointer;
-    
 }
+
 button:hover {
     background-color: #152d96;
 }
+
 .result {
     margin-top: 20px;
     font-size: 1.2em;
